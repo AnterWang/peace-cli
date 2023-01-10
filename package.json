@@ -1,0 +1,27 @@
+{
+  "name": "peace-cli",
+  "version": "0.0.1",
+  "description": "fe cli",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "peace": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "anter",
+    "email": "853443282@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^9.1.4",
+    "ora": "^6.1.2"
+  }
+}
