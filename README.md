@@ -12,7 +12,7 @@
 │  ├─ ├─ inquirer                     # 交互
 │  ├─ ├─ ora                          # 命令行 loading
 │  ├─ ├─ download-git-repo            # 下载远程模版工具包
-
+├─ .gitignore                         # 代码上传忽略文件
 ├─ README.md                          # README 介绍
 ├─ yarn.lock                          # 依赖包包版本锁
 ```
