@@ -1,7 +1,25 @@
 {
   "name": "peace-cli",
   "version": "0.0.1",
-  "description": "fe cli",
+  "description": "frontend cli",
+  "author": {
+    "name": "anter",
+    "email": "853443282@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AnterWang/peace-cli.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "peace-cli",
+    "脚手架",
+    "前端"
+  ],
+  "files": [
+    "bin",
+    "lib"
+  ],
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -10,11 +28,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "anter",
-    "email": "853443282@qq.com"
-  },
-  "license": "MIT",
   "dependencies": {
     "chalk": "^5.2.0",
     "commander": "^9.4.1",
